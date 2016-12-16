@@ -1,0 +1,12 @@
+{
+  "extends": [ "./default.js", "./es6.js", "./react.js", "./mocha.js", "./jasmine.js" ],
+  "env": {
+    "node": true
+  },
+  "parserOptions": {
+    "sourceType": "script"
+  },
+  "rules": {
+    "quote-props": [ "error", "always" ]
+  }
+}

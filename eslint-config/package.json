@@ -1,0 +1,32 @@
+{
+  "name": "fravega-eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint shareable config",
+  "keywords": [
+    "code style",
+    "lint",
+    "linter",
+    "eslint",
+    "eslintconfig"
+  ],
+  "homepage": "",
+  "bugs": "",
+  "license": "MIT",
+  "contributors": [
+    "Facundo Viale <facundo.viale@fravega.com.ar>"
+  ],
+  "main": "default.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "eslint": "^3.7.0",
+    "eslint-plugin-jasmine": "^1.8.1",
+    "eslint-plugin-mocha": "^4.6.0",
+    "eslint-plugin-react": "^6.3.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=0.10"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "fravega-stylelint-config",
+  "version": "1.0.0",
+  "description": "StyleLint shareable config",
+  "keywords": [
+    "code style",
+    "lint",
+    "linter",
+    "stylelint",
+    "stylelint-config"
+  ],
+  "homepage": "",
+  "bugs": "",
+  "license": "MIT",
+  "contributors": [
+    "Facundo Viale <facundo.viale@fravega.com.ar>"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "stylelint *.scss"
+  },
+  "dependencies": {
+    "stylelint": "^7.3.1",
+    "stylelint-config-standard": "^13.0.2",
+    "stylelint-scss": "^1.3.4"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=0.10"
+  }
+}
