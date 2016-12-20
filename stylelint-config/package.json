@@ -1,5 +1,5 @@
 {
-  "name": "fravega-stylelint-config",
+  "name": "stylelint-config-fravega",
   "version": "1.0.0",
   "description": "StyleLint shareable config",
   "keywords": [
@@ -26,6 +26,6 @@
   },
   "devDependencies": {},
   "engines": {
-    "node": ">=0.10"
+    "node": ">=6.0.0"
   }
 }

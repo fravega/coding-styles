@@ -31,7 +31,7 @@ Add ESLint script to run it in `package.json` and check the devDependencies:
 	},
 	"devDependencies": {
 		"eslint": "^2.0.0",
-		"fravega-eslint-config": "latest"
+		"fravega-eslint-config-fravega": "latest"
 	}
 }
 ```
@@ -40,14 +40,14 @@ Add `.eslintrc` file and extend from this package
 
 ```json
 {
-    "extends": "fravega-eslint-config"
+    "extends": "fravega"
 }
 ```
 
 If you want **es6** and **react** configs
 ```json
 {
-    "extends": [ "fravega-eslint-config", "fravega-eslint-config/es6", "fravega-eslint-config/react", "fravega-eslint-config/mocha", "fravega-eslint-config/jasmine" ]
+    "extends": [ "fravega", "fravega/es6", "fravega/react", "fravega/mocha", "fravega/jasmine" ]
 }
 ```
 
@@ -62,7 +62,7 @@ Add StyleLint script to run it in `package.json` and check the devDependencies:
 	},
 	"devDependencies": {
 		"stylelint": "^6.5.1",
-		"fravega-stylelint-config": "latest"
+		"stylelint-config-fravega": "latest"
 	}
 }
 ```
@@ -71,7 +71,7 @@ Add `.stylelintrc` file and extend from this package
 
 ```json
 {
-    "extends": "fravega-stylelint-config"
+    "extends": "stylelint-config-fravega"
 }
 ```
 
