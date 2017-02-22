@@ -15,7 +15,7 @@ module.exports = {
     'react/no-set-state': 'error',
     'react/no-string-refs': 'error',
     'react/prefer-es6-class': 'error',
-    'react/prefer-stateless-function': 'error',
+    'react/prefer-stateless-function': 'off',
     'react/require-optimization': 'off',
     'react/self-closing-comp': 'error',
     'react/sort-comp': 'error',

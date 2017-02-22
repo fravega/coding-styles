@@ -20,10 +20,10 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "eslint": "^3.7.0",
-    "eslint-plugin-jasmine": "^1.8.1",
-    "eslint-plugin-mocha": "^4.6.0",
-    "eslint-plugin-react": "^6.3.0"
+    "eslint": "^3.16.1",
+    "eslint-plugin-jasmine": "^2.2.0",
+    "eslint-plugin-mocha": "^4.8.0",
+    "eslint-plugin-react": "^6.10.0"
   },
   "devDependencies": {},
   "engines": {
