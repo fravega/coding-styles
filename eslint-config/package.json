@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-fravega",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "ESLint shareable config",
   "keywords": [
     "code style",
@@ -19,13 +19,14 @@
   "scripts": {
     "lint": "eslint ."
   },
-  "dependencies": {
-    "eslint": "^3.16.1",
-    "eslint-plugin-jasmine": "^2.2.0",
-    "eslint-plugin-mocha": "^4.8.0",
-    "eslint-plugin-react": "^6.10.0"
+  "devDependencies": {
+    "babel-eslint": "7.2.3",
+    "eslint": "3.19.0",
+    "eslint-plugin-flowtype": "2.33.0",
+    "eslint-plugin-jasmine": "2.2.0",
+    "eslint-plugin-mocha": "4.9.0",
+    "eslint-plugin-react": "7.0.1"
   },
-  "devDependencies": {},
   "engines": {
     "node": ">=6.0.0"
   }
