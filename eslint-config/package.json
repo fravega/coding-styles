@@ -19,7 +19,7 @@
   "scripts": {
     "lint": "eslint ."
   },
-  "devDependencies": {
+  "dependencies": {
     "babel-eslint": "7.2.3",
     "eslint": "3.19.0",
     "eslint-plugin-flowtype": "2.33.0",
