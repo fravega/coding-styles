@@ -7,5 +7,5 @@ module.exports = {
   'plugins': [
     'flowtype'
   ],
-  'rules': { 'flowtype/semi': [ 'error', 'always' ] }
+  'rules': { 'flowtype/semi': [ 'error', 'never' ] }
 };
