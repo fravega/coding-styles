@@ -6,5 +6,6 @@ module.exports = {
   ],
   'plugins': [
     'flowtype'
-  ]
+  ],
+  'rules': { 'flowtype/semi': [ 'error', 'always' ] }
 };

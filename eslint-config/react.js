@@ -40,7 +40,11 @@ module.exports = {
     'react/jsx-no-target-blank': 'error',
     'react/jsx-pascal-case': 'error',
     'react/jsx-sort-props': 'error',
-    'react/jsx-space-before-closing': 'error',
+    'react/jsx-tag-spacing': [ 'error', {
+      'closingSlash': 'never',
+      'beforeSelfClosing': 'always',
+      'afterOpening': 'never'
+    } ],
     'react/jsx-wrap-multilines': [ 'error', { 'assignment': false } ]
   }
 };
