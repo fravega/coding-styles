@@ -172,8 +172,7 @@ module.exports = {
         'ClassDeclaration': true
       }
     } ],
-    'semi': 'error',
-    'semi-spacing': 'error',
+    'semi': [ 'error', 'never' ],
     'sort-vars': 'off',
     'space-before-blocks': 'error',
     'space-before-function-paren': [ 'error', {
