@@ -49,7 +49,7 @@
     </check>
     <check level="error" class="org.scalastyle.scalariform.ParameterNumberChecker" enabled="true">
         <parameters>
-            <parameter name="maxParameters"><![CDATA[8]]></parameter>
+            <parameter name="maxParameters"><![CDATA[10]]></parameter>
         </parameters>
     </check>
     <check level="error" class="org.scalastyle.scalariform.MagicNumberChecker" enabled="true">
@@ -118,4 +118,30 @@ Are you sure you want to println? If yes, wrap the code block with
     <check level="error" class="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" enabled="true"></check>
     <check level="error" class="org.scalastyle.file.NewLineAtEofChecker" enabled="true"></check>
     <check level="error" class="org.scalastyle.file.NoNewLineAtEofChecker" enabled="false"></check>
+    <check level="error" class="org.scalastyle.scalariform.ImportOrderChecker" enabled="true">
+        <parameters>
+            <parameter name="groups">java,scala,akka,play,others</parameter>
+            <parameter name="group.java">javax?\..*</parameter>
+            <parameter name="group.scala">scala\..*</parameter>
+            <parameter name="group.akka">play\..*</parameter>
+            <parameter name="group.play">akka\..*</parameter>
+            <parameter name="group.others">.+</parameter>
+            <parameter name="maxBlankLines">1</parameter>
+        </parameters>
+    </check>
+    <check customId="SingleSpaceBetweenRParenAndLCurlyBrace" level="error" class="org.scalastyle.file.RegexChecker" enabled="true">
+        <parameters>
+            <parameter name="regex">\)\{</parameter>
+        </parameters>
+        <customMessage><![CDATA[
+    Single Space between ')' and `{`.
+        ]]>
+        </customMessage>
+    </check>
+    <check customId="OmitBracesInCase" level="error" class="org.scalastyle.file.RegexChecker" enabled="true">
+        <parameters>
+            <parameter name="regex">case[^\n>]*=>\s*\{</parameter>
+        </parameters>
+        <customMessage>Omit braces in case clauses.</customMessage>
+    </check>
 </scalastyle>
