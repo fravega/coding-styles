@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-fravega",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "StyleLint shareable config",
   "keywords": [
     "code style",
