@@ -7,6 +7,7 @@ module.exports = {
     'color-named': 'never',
     'declaration-block-no-ignored-properties': null,
     'declaration-empty-line-before': 'never',
+    'at-rule-empty-line-before': 'never',
     'font-family-name-quotes': 'always-where-required',
     'font-weight-notation': 'numeric',
     'length-zero-no-unit': true,
