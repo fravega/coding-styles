@@ -12,13 +12,22 @@ module.exports = {
     'react/no-did-update-set-state': 'error',
     'react/no-multi-comp': [ 'error', { 'ignoreStateless': true } ],
     'react/no-render-return-value': 'error',
-    'react/no-set-state': 'error',
     'react/no-string-refs': 'error',
     'react/prefer-es6-class': 'error',
     'react/prefer-stateless-function': 'off',
     'react/require-optimization': 'off',
     'react/self-closing-comp': 'error',
-    'react/sort-comp': 'error',
+    'react/sort-comp': [ 1, {
+      'order': [
+        'type-annotations',
+        'static-methods',
+        'lifecycle',
+        '/^on.+$/',
+        'everything-else',
+        'render'
+      ]
+    }
+    ],
     'react/sort-prop-types': 'error',
 
     // JSX
