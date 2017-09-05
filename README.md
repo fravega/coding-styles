@@ -51,6 +51,14 @@ If you want **es6** and **react** configs
 }
 ```
 
+#### To publish
+
+    npm login --registry https://nexus.cluster.fravega.com/repository/npm-internal
+
+then
+
+    npm publish --registry https://nexus.cluster.fravega.com/repository/npm-internal
+
 ### Styles
 
 Add StyleLint script to run it in `package.json` and check the devDependencies:
