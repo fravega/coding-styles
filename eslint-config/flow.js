@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 module.exports = {
   'extends': [
@@ -8,4 +8,4 @@ module.exports = {
     'flowtype'
   ],
   'rules': { 'flowtype/semi': [ 'error', 'never' ] }
-};
+}

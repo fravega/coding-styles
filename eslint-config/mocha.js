@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 module.exports = {
   'plugins': [ 'mocha' ],
@@ -12,4 +12,4 @@ module.exports = {
     'mocha/valid-test-description': 'off',
     'mocha/valid-suite-description': 'off'
   }
-};
+}

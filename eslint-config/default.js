@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 module.exports = {
   'extends': 'eslint:recommended',
@@ -186,4 +186,4 @@ module.exports = {
     'unicode-bom': 'error',
     'wrap-regex': 'error'
   }
-};
+}

@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 module.exports = {
   'extends': [ 'plugin:react/recommended' ],
@@ -56,4 +56,4 @@ module.exports = {
     } ],
     'react/jsx-wrap-multilines': [ 'error', { 'assignment': false } ]
   }
-};
+}

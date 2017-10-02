@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 module.exports = {
   'env': { 'es6': true },
@@ -33,4 +33,4 @@ module.exports = {
     'template-curly-spacing': 'error',
     'yield-star-spacing': 'error'
   }
-};
+}
