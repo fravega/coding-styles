@@ -19,8 +19,8 @@ module.exports = {
     'react/self-closing-comp': 'error',
     'react/sort-comp': [ 1, {
       'order': [
-        'type-annotations',
         'static-methods',
+        'type-annotations',
         'lifecycle',
         '/^on.+$/',
         'everything-else',

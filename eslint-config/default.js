@@ -132,7 +132,7 @@ module.exports = {
     'max-params': [ 'error', 5 ],
     'max-statements': [ 'error', 15 ],
     'max-statements-per-line': 'error',
-    'new-cap': [ 'error', { 'properties': false } ],
+    'new-cap': [ 'error', { 'properties': false, 'capIsNewExceptionPattern' : '^Immutable\\..' } ],
     'new-parens': 'error',
     'newline-after-var': 'off',
     'newline-before-return': 'off',
