@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 module.exports = {
   'env': { 'jasmine': true },
@@ -15,4 +15,4 @@ module.exports = {
     'jasmine/valid-expect': 'error',
     'jasmine/no-assign-spyon': 'error'
   }
-};
+}

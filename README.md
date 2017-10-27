@@ -57,7 +57,11 @@ If you want **es6** and **react** configs
 
 then
 
-    npm publish --registry https://nexus.cluster.fravega.com/repository/npm-internal/
+    cd eslint-config
+    npm publish --registry=https://nexus.cluster.fravega.com/repository/npm-internal/
+    cd ..
+    cd styleint-config
+    npm publish --registry=https://nexus.cluster.fravega.com/repository/npm-internal/
 
 ### Styles
 
