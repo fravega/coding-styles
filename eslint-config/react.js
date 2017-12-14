@@ -25,7 +25,30 @@ module.exports = {
         '/^on.+$/',
         'everything-else',
         'render'
-      ]
+      ],
+      'groups': {
+        'lifecycle': [
+          'displayName',
+          'propTypes',
+          'contextTypes',
+          'defaultProps',
+          'statics',
+          'childContextTypes',
+          'getDefaultProps',
+          'getInitialState',
+          'getChildContext',
+          'mixins',
+          'state',
+          'constructor',
+          'componentWillMount',
+          'componentDidMount',
+          'componentWillReceiveProps',
+          'shouldComponentUpdate',
+          'componentWillUpdate',
+          'componentDidUpdate',
+          'componentWillUnmount'
+        ]
+      }
     }
     ],
     'react/sort-prop-types': 'error',
